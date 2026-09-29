@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UserSecretsId>06af5005-ab96-4560-b104-9dd7ebedcafb</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SIGE.Entidades\SIGE.Entidades.csproj" />
+    <ProjectReference Include="..\SIGE.Negocio\SIGE.Negocio.csproj" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+</Project>

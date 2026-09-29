@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SIGE.Entidades\SIGE.Entidades.csproj" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+</Project>
